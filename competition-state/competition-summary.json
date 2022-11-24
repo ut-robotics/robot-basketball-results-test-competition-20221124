@@ -3,7 +3,8 @@
   "name": "Test Competition 2022-11-24",
   "robots": [
     {"id": "placeholder", "name": "%placeholder%"},
-    {"id": "gibibot", "name": "GibiBot"}
+    {"id": "gibibot", "name": "GibiBot"},
+    {"id": "jurto", "name": "Kivipallur Jürto"}
   ],
   "tournament": null
 }
