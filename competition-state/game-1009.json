@@ -38,7 +38,10 @@
       "hasEnded": false,
       "isConfirmed": false,
       "roundMaxLength": 60000,
-      "runs": [{"startTime": 1669316927054, "endTime": 1669316956651}]
+      "runs": [
+        {"startTime": 1669316927054, "endTime": 1669316956651},
+        {"startTime": 1669316985090, "endTime": null}
+      ]
     }
   ],
   "ballPlacement": [
