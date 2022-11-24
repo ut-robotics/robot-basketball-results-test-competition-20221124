@@ -36,7 +36,8 @@
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1669312326561, "endTime": 1669312352793},
-        {"startTime": 1669312399422, "endTime": 1669312404905}
+        {"startTime": 1669312399422, "endTime": 1669312404905},
+        {"startTime": 1669312430885, "endTime": null}
       ]
     }
   ],
