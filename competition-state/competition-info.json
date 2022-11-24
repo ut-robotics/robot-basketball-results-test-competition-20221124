@@ -21,7 +21,7 @@
       {"id": "placeholder", "name": "%placeholder%"},
       {"id": "gibibot", "name": "GibiBot"}
     ],
-    "gameIDs": [1001, 1002, 1003, 1004, 1005, 1006, 1007],
+    "gameIDs": [1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008],
     "gameTypes": {
       "1001": "noLoss",
       "1002": "noLoss",
@@ -29,20 +29,22 @@
       "1004": "oneLoss",
       "1005": "noLoss",
       "1006": "oneLoss",
-      "1007": "oneLoss"
+      "1007": "oneLoss",
+      "1008": "firstFinal"
     },
-    "noLossQueue": [{"id": "gibibot", "name": "GibiBot"}],
+    "noLossQueue": [],
     "oneLossQueue": [],
     "eliminatedRobots": [
       {"id": "snax", "name": "snäx"},
-      {"id": "jurto", "name": "Kivipallur Jürto"}
+      {"id": "jurto", "name": "Kivipallur Jürto"},
+      {"id": "placeholder", "name": "%placeholder%"}
     ],
     "robotStartingBaskets": {
-      "owo": ["magenta", "blue", "magenta", "blue"],
+      "owo": ["magenta", "blue", "magenta", "blue", "blue"],
       "jurto": ["blue", "magenta", "blue"],
       "snax": ["magenta", "magenta"],
       "placeholder": ["blue", "magenta", "magenta"],
-      "gibibot": ["blue", "blue"]
+      "gibibot": ["blue", "blue", "magenta"]
     },
     "hasEnded": false
   }
