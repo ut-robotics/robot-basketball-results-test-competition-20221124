@@ -8,5 +8,35 @@
     {"id": "snax", "name": "snäx"},
     {"id": "owo", "name": "OWO"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": false,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": true
+  },
+  "doubleEliminationTournament": {
+    "robots": [
+      {"id": "owo", "name": "OWO"},
+      {"id": "jurto", "name": "Kivipallur Jürto"},
+      {"id": "snax", "name": "snäx"},
+      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "gibibot", "name": "GibiBot"}
+    ],
+    "gameIDs": [1001],
+    "gameTypes": {"1001": "noLoss"},
+    "noLossQueue": [
+      {"id": "snax", "name": "snäx"},
+      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "gibibot", "name": "GibiBot"}
+    ],
+    "oneLossQueue": [],
+    "eliminatedRobots": [],
+    "robotStartingBaskets": {
+      "owo": ["magenta"],
+      "jurto": ["blue"],
+      "snax": [],
+      "placeholder": [],
+      "gibibot": []
+    },
+    "hasEnded": false
+  }
 }
