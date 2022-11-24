@@ -1,0 +1,34 @@
+{
+  "id": 1009,
+  "robots": [
+    {"id": "gibibot", "name": "GibiBot"},
+    {"id": "owo", "name": "OWO"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": false,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.83, -0.52],
+    [-1.83, 0.52],
+    [0.96, 0.53],
+    [-0.96, -0.53],
+    [0.33, -0.33],
+    [-0.33, 0.33],
+    [1.6, 0.56],
+    [-1.6, -0.56],
+    [-0.02, -0.59],
+    [0.02, 0.59]
+  ]
+}
