@@ -519,15 +519,24 @@
             "runs": [{"startTime": 1669315504703, "endTime": 1669315564733}]
           },
           {
-            "scores": [[], []],
-            "fouls": [[], []],
+            "scores": [
+              [],
+              [
+                {"time": 1669315651202, "isValid": true},
+                {"time": 1669315655190, "isValid": true},
+                {"time": 1669315656367, "isValid": true},
+                {"time": 1669315660840, "isValid": true},
+                {"time": 1669315669905, "isValid": true}
+              ]
+            ],
+            "fouls": [[{"time": 1669315679010}], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 4,
+            "duration": 34877,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1669315638133, "endTime": null}]
+            "runs": [{"startTime": 1669315638133, "endTime": 1669315673010}]
           }
         ],
         "status": {"result": "unknown"},
@@ -610,15 +619,24 @@
         "runs": [{"startTime": 1669315504703, "endTime": 1669315564733}]
       },
       {
-        "scores": [[], []],
-        "fouls": [[], []],
+        "scores": [
+          [],
+          [
+            {"time": 1669315651202, "isValid": true},
+            {"time": 1669315655190, "isValid": true},
+            {"time": 1669315656367, "isValid": true},
+            {"time": 1669315660840, "isValid": true},
+            {"time": 1669315669905, "isValid": true}
+          ]
+        ],
+        "fouls": [[{"time": 1669315679010}], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 4,
+        "duration": 34877,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1669315638133, "endTime": null}]
+        "runs": [{"startTime": 1669315638133, "endTime": 1669315673010}]
       }
     ],
     "status": {"result": "unknown"},
