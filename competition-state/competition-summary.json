@@ -741,7 +741,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -764,7 +764,7 @@
           },
           {
             "scores": [
-              [],
+              [{"time": 1669317015676, "isValid": true}],
               [
                 {"time": 1669316944646, "isValid": true},
                 {"time": 1669316952599, "isValid": true},
@@ -773,18 +773,24 @@
             ],
             "fouls": [[{"time": 1669316960807}], []],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 41457,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60041,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 1,
             "runs": [
               {"startTime": 1669316927054, "endTime": 1669316956651},
-              {"startTime": 1669316985090, "endTime": null}
+              {"startTime": 1669316985090, "endTime": 1669317015534}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "owo", "name": "OWO"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [1.83, -0.52],
@@ -812,11 +818,12 @@
       "1009": "secondFinal"
     },
     "noLossQueue": [],
-    "oneLossQueue": [],
+    "oneLossQueue": [{"id": "owo", "name": "OWO"}],
     "eliminatedRobots": [
       {"id": "snax", "name": "snäx"},
       {"id": "jurto", "name": "Kivipallur Jürto"},
-      {"id": "placeholder", "name": "%placeholder%"}
+      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "gibibot", "name": "GibiBot"}
     ],
     "robotStartingBaskets": {
       "owo": ["magenta", "blue", "magenta", "blue", "blue", "blue"],
@@ -825,7 +832,7 @@
       "placeholder": ["blue", "magenta", "magenta"],
       "gibibot": ["blue", "blue", "magenta", "magenta"]
     },
-    "hasEnded": false
+    "hasEnded": true
   },
   "activeGame": {
     "id": 1009,
@@ -835,7 +842,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -858,7 +865,7 @@
       },
       {
         "scores": [
-          [],
+          [{"time": 1669317015676, "isValid": true}],
           [
             {"time": 1669316944646, "isValid": true},
             {"time": 1669316952599, "isValid": true},
@@ -867,18 +874,24 @@
         ],
         "fouls": [[{"time": 1669316960807}], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 41457,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60041,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 1,
         "runs": [
           {"startTime": 1669316927054, "endTime": 1669316956651},
-          {"startTime": 1669316985090, "endTime": null}
+          {"startTime": 1669316985090, "endTime": 1669317015534}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "owo", "name": "OWO"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [1.83, -0.52],
